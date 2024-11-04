@@ -1,0 +1,9 @@
+{{ define "tasks.html" }}
+<ul>
+    {{ range . }}
+    <li>{{ . }}</li>
+    {{ else }}
+    <li>No tasks yet!</li>
+    {{ end }}
+</ul>
+{{ end }}
